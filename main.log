@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.1.31)  31 JAN 2018 20:42
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.1.31)  1 FEB 2018 00:28
  restricted \write18 enabled.
 **main.tex
 (./main.tex
@@ -222,7 +222,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.037 seconds)
+luaotfload | main : initialization completed in 0.040 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX. (/us
 r/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -1398,14 +1398,14 @@ Here is how much of LuaTeX's memory you used:
    202 hlist, 8 vlist, 14 rule, 74 disc, 6 math, 587 glue, 131 kern, 55 penalty,
  651 glyph, 598 attribute, 219 glue_spec, 598 attribute_list, 2 write, 37 local_
 par, 330 pdf_literal, 82 pdf_colorstack nodes
-   avail lists: 1:5,2:499,3:478,4:1483,5:365,6:2225,7:49,9:364,10:218
+   avail lists: 1:5,2:499,3:478,4:1483,5:365,6:2226,7:49,9:364,10:218
  37928 multiletter control sequences out of 65536+600000
  54 fonts using 11392095 bytes
  64i,9n,87p,1128b,736s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/fonts/truetype/lato/Lato-Regular.ttf></usr/share/fonts/truetype/lato
 /Lato-Italic.ttf></usr/share/texlive/texmf-dist/fonts/opentype/public/fontawesom
 e/FontAwesome.otf></usr/share/fonts/truetype/lato/Lato-Bold.ttf>
-Output written on main.pdf (1 page, 813553 bytes).
+Output written on main.pdf (1 page, 813546 bytes).
 
 PDF statistics: 40 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
