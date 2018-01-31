@@ -145,6 +145,11 @@
   \smallskip
 }
 
+\newcommand{\cvlanguage}[2]{%
+  {\large\color{emphasis}#1 - \textbf{\small\color{body}#2}\par}
+  \smallskip
+}
+
 
 
 \newcommand{\cvinterest}[2]{%
