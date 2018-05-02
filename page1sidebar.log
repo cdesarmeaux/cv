@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.1.31)  31 JAN 2018 19:36
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.1.31)  2 MAY 2018 11:13
  restricted \write18 enabled.
 **page1sidebar.tex
 (./page1sidebar.tex
@@ -25,7 +25,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.2 C
-   urrently working as a software developement and data science freelancer a...
+   urrently working as a freelance web developer within my own company, LouT...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -330,7 +330,86 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 35--38
  []
 
 ! Undefined control sequence.
-l.42  \cvsection
+l.40 \cvsection
+             {Languages}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \cvsection{L
+               anguages}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 40--41
+[][]Languages 
+ []
+
+! Undefined control sequence.
+l.42 \cvlanguage
+              {French}{Native language}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \cvlanguage{F
+                rench}{Native language}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.43 \cvlanguage
+              {English}{Bilingual}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.44 \cvlanguage
+              {Spanish}{Intermediate}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.45 \cvlanguage
+              {German}{Intermediate}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 42--46
+[][]FrenchNative
+ []
+
+! Undefined control sequence.
+l.48  \cvsection
               {Interests}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -345,13 +424,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42  \cvsection{I
+l.48  \cvsection{I
                 nterests}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 42--43
+Overfull \hbox (20.0pt too wide) in paragraph at lines 48--49
 [][]Interests 
  []
 
@@ -362,13 +441,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 \begin{minipage}{0.20\textwidth}
+l.50 \begin{minipage}{0.20\textwidth}
                                    
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.45 \cvinterest
+l.51 \cvinterest
               {\faStarHalfO}{Astronomy}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -377,7 +456,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.45 \cvinterest{\faStarHalfO
+l.51 \cvinterest{\faStarHalfO
                            }{Astronomy}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -386,11 +465,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 46.
+(Font)              <7> on input line 52.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 46.
+(Font)              <5> on input line 52.
 ! Undefined control sequence.
-l.48 \cvinterest
+l.54 \cvinterest
               {\faSoccerBallO}{Football}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -399,7 +478,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.48 \cvinterest{\faSoccerBallO
+l.54 \cvinterest{\faSoccerBallO
                              }{Football}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -408,7 +487,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.51 \cvinterest
+l.57 \cvinterest
               {\faDotCircleO}{Golf}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -417,7 +496,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.51 \cvinterest{\faDotCircleO
+l.57 \cvinterest{\faDotCircleO
                             }{Golf}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -426,12 +505,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (4689.37495pt too wide) in paragraph at lines 44--53
+Overfull \hbox (4689.37495pt too wide) in paragraph at lines 50--59
 [][]$[]$$[]$$[]$ 
  []
 
 ! Undefined control sequence.
-l.64 \cvsection
+l.70 \cvsection
              {Extra}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -446,13 +525,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 \cvsection{E
+l.70 \cvsection{E
                xtra}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 64--65
+Overfull \hbox (20.0pt too wide) in paragraph at lines 70--71
 [][]Extra 
  []
 
@@ -463,20 +542,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \begin{itemize}
+l.72 \begin{itemize}
                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 66--66
+Overfull \hbox (20.0pt too wide) in paragraph at lines 72--72
 [][] 
  []
 
 ! Undefined control sequence.
 <recently read> \cvextra 
          
-l.67 \item\cvextra
+l.73 \item\cvextra
                 {Mathematics tutor}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -487,7 +566,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \cvextra 
          
-l.68 \item\cvextra
+l.74 \item\cvextra
                 {"Caws 4 paws"}{Cat foster home}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -498,7 +577,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \cvextra 
          
-l.69 \item\cvextra
+l.75 \item\cvextra
                 {"Guide dog for Visually impaired persons"}{Member}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -516,11 +595,11 @@ and I'll forget about whatever was undefined.
 
 Here is how much of LuaTeX's memory you used:
  25 strings out of 495004
- 100000,89155 words of node,token memory allocated 4533 words of node memory still in use:
-   46 hlist, 3 vlist, 6 math, 162 glue, 30 penalty, 478 glyph, 71 glue_spec, 17 
+ 100000,89155 words of node,token memory allocated 5211 words of node memory still in use:
+   51 hlist, 3 vlist, 6 math, 178 glue, 33 penalty, 565 glyph, 77 glue_spec, 19 
 local_par, 1 dir nodes
-   avail lists: 2:15,4:3,5:2,6:1,7:42,10:40
+   avail lists: 1:1,2:15,4:3,5:1,6:1,7:45,10:43
  3702 multiletter control sequences out of 65536+600000
  25 fonts using 994519 bytes
- 20i,2n,18p,195b,86s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 20i,2n,18p,203b,86s stack positions out of 5000i,500n,10000p,200000b,100000s
 !  ==> Fatal error occurred, no output PDF file produced!
