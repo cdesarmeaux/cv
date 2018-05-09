@@ -36,6 +36,7 @@
 \RequirePackage{dashrule}
 \RequirePackage{multirow,tabularx}
 \RequirePackage{changepage}
+\usepackage[hidelinks]{hyperref}
 % \RequirePackage{marginfix}
 
 \setlength{\parindent}{0pt}
@@ -61,10 +62,10 @@
 \newcommand{\email}[1]{\printinfo{\emailsymbol}{#1}}
 \newcommand{\mailaddress}[1]{\printinfo{\mailsymbol}{#1}}
 \newcommand{\phone}[1]{\printinfo{\phonesymbol}{#1}}
-\newcommand{\homepage}[1]{\printinfo{\homepagesymbol}{#1}}
+\newcommand{\homepage}[1]{\printinfo{\homepagesymbol}{\href{www.cdesarmeaux.com}{#1}}}
 \newcommand{\twitter}[1]{\printinfo{\twittersymbol}{#1}}
-\newcommand{\linkedin}[1]{\printinfo{\linkedinsymbol}{#1}}
-\newcommand{\github}[1]{\printinfo{\githubsymbol}{#1}}
+\newcommand{\linkedin}[1]{\printinfo{\linkedinsymbol}{\href{https://www.linkedin.com/in/cdesarmeaux/}{#1}}}
+\newcommand{\github}[1]{\printinfo{\githubsymbol}{\href{https://github.com/cdesarmeaux}{#1}}}
 \newcommand{\orcid}[1]{\printinfo{\orcidsymbol}{#1}}
 \newcommand{\location}[1]{\printinfo{\locationsymbol}{#1}}
 
