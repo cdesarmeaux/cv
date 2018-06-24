@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.1.31)  24 JUN 2018 19:01
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.1.31)  24 JUN 2018 19:10
  restricted \write18 enabled.
 **main.tex
 (./main.tex
@@ -222,7 +222,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.057 seconds)
+luaotfload | main : initialization completed in 0.056 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX. (/us
 r/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -1499,22 +1499,22 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of LuaTeX's memory you used:
  38913 strings out of 495004
  125171,1373583 words of node,token memory allocated
- 14581 words of node memory still in use:
+ 14604 words of node memory still in use:
    193 hlist, 8 vlist, 12 rule, 81 disc, 6 math, 576 glue, 111 kern, 54 penalty,
- 653 glyph, 603 attribute, 220 glue_spec, 603 attribute_list, 1 action, 2 write,
- 35 local_par, 330 pdf_literal, 1 pdf_start_link, 1 pdf_end_link, 84 pdf_colorst
+ 653 glyph, 605 attribute, 220 glue_spec, 605 attribute_list, 2 action, 2 write,
+ 35 local_par, 330 pdf_literal, 2 pdf_start_link, 2 pdf_end_link, 84 pdf_colorst
 ack nodes
-   avail lists: 1:6,2:510,3:477,4:1406,5:317,6:2042,7:45,8:7,9:342,10:214
+   avail lists: 1:6,2:510,3:478,4:1406,5:317,6:2042,7:45,8:8,9:342,10:214
  41433 multiletter control sequences out of 65536+600000
  54 fonts using 11392095 bytes
  64i,9n,87p,1148b,736s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/fonts/truetype/lato/Lato-Regular.ttf></usr/share/fonts/truetype/lato
 /Lato-Italic.ttf></usr/share/texlive/texmf-dist/fonts/opentype/public/fontawesom
 e/FontAwesome.otf></usr/share/fonts/truetype/lato/Lato-Bold.ttf>
-Output written on main.pdf (1 page, 812138 bytes).
+Output written on main.pdf (1 page, 812185 bytes).
 
-PDF statistics: 50 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+PDF statistics: 51 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
