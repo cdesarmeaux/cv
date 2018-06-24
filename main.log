@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.1.31)  9 MAY 2018 09:24
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.1.31)  24 JUN 2018 19:01
  restricted \write18 enabled.
 **main.tex
 (./main.tex
@@ -222,7 +222,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.039 seconds)
+luaotfload | main : initialization completed in 0.057 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX. (/us
 r/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -1451,20 +1451,20 @@ luaotfload | load : Lookup/name: "Lato" -> "Lato-Regular.ttf"
 luaotfload | load : Lookup/name: "Lato" -> "Lato-Bold.ttf"
 
 LaTeX Font Warning: Font shape `EU2/FontAwesome(0)/bx/n' undefined
-(Font)              using `EU2/FontAwesome(0)/m/n' instead on input line 62.
+(Font)              using `EU2/FontAwesome(0)/m/n' instead on input line 61.
 
 luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"
 luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"
 luaotfload | load : Lookup/name: "Lato" -> "Lato-Regular.ttf"
 luaotfload | load : Lookup/name: "Lato" -> "Lato-Regular.ttf"
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 62.
+(Font)              <7> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 62.
+(Font)              <5> on input line 61.
 <photo-pro.png, id=10, 2152.04pt x 1429.34pt>
 File: photo-pro.png Graphic file (type png)
  <use photo-pro.png>
-Package pdftex.def Info: photo-pro.png used on input line 62.
+Package pdftex.def Info: photo-pro.png used on input line 61.
 (pdftex.def)             Requested size: 2152.03477pt x 1429.33652pt.
 
 (./page1sidebar.tex
@@ -1480,11 +1480,11 @@ luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf"
 luaotfload | load : Lookup/name: "FontAwesome" -> "FontAwesome.otf" [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./photo-pro.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 139.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 139.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 139.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 139.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 135.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 135.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1497,23 +1497,24 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 38911 strings out of 495004
+ 38913 strings out of 495004
  125171,1373583 words of node,token memory allocated
- 14738 words of node memory still in use:
-   202 hlist, 8 vlist, 14 rule, 75 disc, 6 math, 586 glue, 130 kern, 55 penalty,
- 654 glyph, 598 attribute, 221 glue_spec, 598 attribute_list, 1 action, 2 write,
- 37 local_par, 330 pdf_literal, 82 pdf_colorstack nodes
-   avail lists: 1:6,2:538,3:484,4:1475,5:369,6:2227,7:49,8:8,9:368,10:220
- 41431 multiletter control sequences out of 65536+600000
+ 14581 words of node memory still in use:
+   193 hlist, 8 vlist, 12 rule, 81 disc, 6 math, 576 glue, 111 kern, 54 penalty,
+ 653 glyph, 603 attribute, 220 glue_spec, 603 attribute_list, 1 action, 2 write,
+ 35 local_par, 330 pdf_literal, 1 pdf_start_link, 1 pdf_end_link, 84 pdf_colorst
+ack nodes
+   avail lists: 1:6,2:510,3:477,4:1406,5:317,6:2042,7:45,8:7,9:342,10:214
+ 41433 multiletter control sequences out of 65536+600000
  54 fonts using 11392095 bytes
  64i,9n,87p,1148b,736s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/fonts/truetype/lato/Lato-Regular.ttf></usr/share/fonts/truetype/lato
 /Lato-Italic.ttf></usr/share/texlive/texmf-dist/fonts/opentype/public/fontawesom
 e/FontAwesome.otf></usr/share/fonts/truetype/lato/Lato-Bold.ttf>
-Output written on main.pdf (1 page, 813843 bytes).
+Output written on main.pdf (1 page, 812138 bytes).
 
-PDF statistics: 51 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+PDF statistics: 50 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

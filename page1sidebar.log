@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.1.31)  9 MAY 2018 09:10
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015/Debian) (rev 5238)  (format=lualatex 2018.1.31)  24 JUN 2018 18:21
  restricted \write18 enabled.
 **page1sidebar.tex
 (./page1sidebar.tex
@@ -24,8 +24,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2 C
-   urrently working as a freelance web developer within my own company, LouT...
+l.2 S
+   oftware engineer with a special fondness for serverless architectures and...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -36,19 +36,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 \end{quote}
+l.3 \end{quote}
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 2--5
-[][]Currently
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--4
+[][]Software
  []
 
 ! Undefined control sequence.
-l.8 \cvsection
+l.7 \cvsection
             {Skills}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -63,19 +63,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 \cvsection{S
+l.7 \cvsection{S
               kills}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 8--9
+Overfull \hbox (20.0pt too wide) in paragraph at lines 7--8
 [][]Skills 
  []
 
 ! Undefined control sequence.
-l.10 \cvstrengthgroup
-                   {Front-end}
+l.9 \cvstrengthgroup
+                  {Web Development Frameworks}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -89,13 +89,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 \cvstrengthgroup{F
-                     ront-end}
+l.9 \cvstrengthgroup{W
+                    eb Development Frameworks}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.11 \cvtag
+l.10 \cvtag
          {Angular}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -104,7 +104,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.12 \cvtag
+l.11 \cvtag
          {React}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -112,9 +112,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+l.12 \cvtag
+         {Tornado}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 10--13
-[][]Front-end
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9--13
+[][]Web
  []
 
 ! Undefined control sequence.
@@ -128,7 +137,7 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.16 \cvstrengthgroup
-                   {Back-end}
+                   {Web Servers}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -142,66 +151,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 \cvstrengthgroup{B
-                     ack-end}
+l.16 \cvstrengthgroup{W
+                     eb Servers}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
 l.17 \cvtag
-         {Tornado}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.18 \cvtag
-         {Jetty}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 16--19
-[][]Back-end
- []
-
-! Undefined control sequence.
-l.20 \divider
-           \smallskip
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.22 \cvstrengthgroup
-                   {Web Hosting}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 \cvstrengthgroup{W
-                     eb Hosting}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-l.23 \cvtag
          {Apache2}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -210,7 +166,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.24 \cvtag
+l.18 \cvtag
          {Nginx}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -218,13 +174,22 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+l.19 \cvtag
+         {Tomcat}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 22--25
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 16--20
 [][]Web
  []
 
 ! Undefined control sequence.
-l.26 \divider
+l.21 \divider
            \smallskip
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -233,8 +198,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.28 \cvstrengthgroup
-                   {Database}
+l.23 \cvstrengthgroup
+                   {Databases}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -248,13 +213,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 \cvstrengthgroup{D
-                     atabase}
+l.23 \cvstrengthgroup{D
+                     atabases}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.29 \cvtag
+l.24 \cvtag
          {Oracle}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -263,7 +228,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.30 \cvtag
+l.25 \cvtag
          {MongoDB}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -272,12 +237,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 28--31
-[][]Database
+Overfull \hbox (20.0pt too wide) in paragraph at lines 23--26
+[][]Databases
  []
 
 ! Undefined control sequence.
-l.33 \divider
+l.28 \divider
            \smallskip
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -286,8 +251,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.35 \cvstrengthgroup
-                   {Data Mining}
+l.30 \cvstrengthgroup
+                   {Cloud Hosting}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -301,14 +266,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 \cvstrengthgroup{D
-                     ata Mining}
+l.30 \cvstrengthgroup{C
+                     loud Hosting}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.36 \cvtag
-         {R}
+l.31 \cvtag
+         {AWS Compute}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -316,8 +281,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.37 \cvtag
-         {Python Scripting}
+l.32 \cvtag
+         {OVH}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -325,12 +290,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 35--38
-[][]Data
+Overfull \hbox (20.0pt too wide) in paragraph at lines 30--33
+[][]Cloud
  []
 
 ! Undefined control sequence.
-l.40 \cvsection
+l.35 \cvsection
              {Languages}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -345,18 +310,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \cvsection{L
+l.35 \cvsection{L
                anguages}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 40--41
+Overfull \hbox (20.0pt too wide) in paragraph at lines 35--36
 [][]Languages 
  []
 
 ! Undefined control sequence.
-l.42 \cvlanguage
+l.37 \cvlanguage
               {French}{Native language}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -371,13 +336,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 \cvlanguage{F
+l.37 \cvlanguage{F
                 rench}{Native language}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.43 \cvlanguage
+l.38 \cvlanguage
               {English}{Bilingual}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -386,7 +351,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.44 \cvlanguage
+l.39 \cvlanguage
               {Spanish}{Intermediate}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -395,7 +360,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.45 \cvlanguage
+l.40 \cvlanguage
               {German}{Intermediate}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -404,12 +369,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 42--46
+Overfull \hbox (20.0pt too wide) in paragraph at lines 37--41
 [][]FrenchNative
  []
 
 ! Undefined control sequence.
-l.48  \cvsection
+l.43  \cvsection
               {Interests}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -424,13 +389,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48  \cvsection{I
+l.43  \cvsection{I
                 nterests}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 48--49
+Overfull \hbox (20.0pt too wide) in paragraph at lines 43--44
 [][]Interests 
  []
 
@@ -441,13 +406,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 \begin{minipage}{0.20\textwidth}
+l.45 \begin{minipage}{0.20\textwidth}
                                    
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.51 \cvinterest
+l.46 \cvinterest
               {\faStarHalfO}{Astronomy}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -456,7 +421,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.51 \cvinterest{\faStarHalfO
+l.46 \cvinterest{\faStarHalfO
                            }{Astronomy}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -465,11 +430,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 52.
+(Font)              <7> on input line 47.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 52.
+(Font)              <5> on input line 47.
 ! Undefined control sequence.
-l.54 \cvinterest
+l.49 \cvinterest
               {\faSoccerBallO}{Football}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -478,7 +443,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.54 \cvinterest{\faSoccerBallO
+l.49 \cvinterest{\faSoccerBallO
                              }{Football}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -487,7 +452,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.57 \cvinterest
+l.52 \cvinterest
               {\faDotCircleO}{Golf}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -496,7 +461,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.57 \cvinterest{\faDotCircleO
+l.52 \cvinterest{\faDotCircleO
                             }{Golf}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -505,12 +470,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (4689.37495pt too wide) in paragraph at lines 50--59
+Overfull \hbox (4689.37495pt too wide) in paragraph at lines 45--54
 [][]$[]$$[]$$[]$ 
  []
 
 ! Undefined control sequence.
-l.70 \cvsection
+l.65 \cvsection
              {Extra}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -525,13 +490,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \cvsection{E
+l.65 \cvsection{E
                xtra}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 70--71
+Overfull \hbox (20.0pt too wide) in paragraph at lines 65--66
 [][]Extra 
  []
 
@@ -542,20 +507,102 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.72 \begin{itemize}
+l.67 \begin{itemize}
                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 72--72
+Overfull \hbox (20.0pt too wide) in paragraph at lines 67--67
 [][] 
  []
 
 ! Undefined control sequence.
 <recently read> \cvextra 
          
-l.73 \item\cvextra
+l.68 \item\cvextra
+                {\href{http://rebels.ece.mcgill.ca/papers/msr2016_desarmeaux...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.68 \item\cvextra{\href
+                      {http://rebels.ece.mcgill.ca/papers/msr2016_desarmeaux...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.68 ...{http://rebels.ece.mcgill.ca/papers/msr2016_
+                                                  desarmeaux.pdf}{Academic a...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.68 ...ece.mcgill.ca/papers/msr2016_desarmeaux.pdf}
+                                                  {Academic author}}{IEEE pu...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.68 ...rs/msr2016_desarmeaux.pdf}{Academic author}}
+                                                  {IEEE publications}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 \item
+        \cvextra{Mathematics tutor}{}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 \item\cvextra
+                {Mathematics tutor}{}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 \item\cvextra
+                {Mathematics tutor}{}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<recently read> \cvextra 
+         
+l.69 \item\cvextra
                 {Mathematics tutor}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -563,11 +610,48 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 \item
+        \cvextra{Occasional tech blogger}{medium.com}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+$
+l.70 \item\cvextra
+                {Occasional tech blogger}{medium.com}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.70 \item\cvextra
+                {Occasional tech blogger}{medium.com}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (310.87338pt too wide) in paragraph at lines 68--70
+http://rebels.ece.mcgill.ca/papers/msr2016$[][]\OML/cmm/m/it/10 esarmeaux:pdf[]
+[][][][][]$ 
+ []
+
 ! Undefined control sequence.
 <recently read> \cvextra 
          
-l.74 \item\cvextra
-                {"Caws 4 paws"}{Cat foster home}
+l.70 \item\cvextra
+                {Occasional tech blogger}{medium.com}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -577,13 +661,24 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \cvextra 
          
-l.75 \item\cvextra
-                {"Guide dog for Visually impaired persons"}{Member}
+l.71 \item\cvextra
+                {"Caws 4 paws"}{Cat foster home}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
+
+! Missing } inserted.
+<inserted text> 
+}
+l.72 \end{itemize}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 )
 ! Emergency stop.
@@ -595,11 +690,11 @@ and I'll forget about whatever was undefined.
 
 Here is how much of LuaTeX's memory you used:
  25 strings out of 495004
- 100000,89155 words of node,token memory allocated 5157 words of node memory still in use:
-   51 hlist, 3 vlist, 6 math, 174 glue, 33 penalty, 560 glyph, 75 glue_spec, 19 
-local_par, 1 dir nodes
-   avail lists: 1:1,2:15,4:3,5:1,6:1,7:41,10:39
+ 100000,89155 words of node,token memory allocated 5372 words of node memory still in use:
+   59 hlist, 3 vlist, 8 math, 159 glue, 11 kern, 32 penalty, 587 glyph, 72 glue_
+spec, 18 local_par, 1 dir nodes
+   avail lists: 1:1,2:15,3:58,4:22,5:1,6:1,7:27,10:25
  3702 multiletter control sequences out of 65536+600000
  25 fonts using 994519 bytes
- 20i,2n,18p,174b,86s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 20i,3n,18p,232b,89s stack positions out of 5000i,500n,10000p,200000b,100000s
 !  ==> Fatal error occurred, no output PDF file produced!

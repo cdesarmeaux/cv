@@ -92,6 +92,14 @@
 
 \newcommand{\cvsection}[2][]{%
   \bigskip%
+  \vspace{0.1cm}
+  \ifstrequal{#1}{}{}{\marginpar{\vspace*{\dimexpr1pt-\baselineskip}\raggedright\input{#1}}}% 
+  {\color{heading}\LARGE\bfseries\MakeUppercase{#2}}\\[-1ex]%
+  {\color{heading-line}\rule{\linewidth}{2pt}\par}\medskip
+}
+
+\newcommand{\cvsectionfirst}[2][]{%
+  \bigskip%
   \ifstrequal{#1}{}{}{\marginpar{\vspace*{\dimexpr1pt-\baselineskip}\raggedright\input{#1}}}% 
   {\color{heading}\LARGE\bfseries\MakeUppercase{#2}}\\[-1ex]%
   {\color{heading-line}\rule{\linewidth}{2pt}\par}\medskip
@@ -112,26 +120,25 @@
   \medskip
 }
 
-\newcommand{\cveventnew}[5]{%
+\newcommand{\cveventnew}[6]{%
   {\large\color{emphasis}#1\par}
   \smallskip
-  \textbf{\color{accent}#2}\par
+  \textbf{\color{accent}#2}
+  \hspace{0.2cm}\textit{\color{body}#3}\par
   \smallskip
-  \textbf{\small\color{body}#3}\par
+  \textbf{\small\color{body}#4}\par
   \smallskip
-  {\small\makebox[0.5\linewidth][l]{\faCalendar \hspace{0.5em}#4}%
-  \ifstrequal{#5}{}{}{\makebox[0.5\linewidth][l]{\faMapMarker\hspace{0.5em}#5}}\par}
+  {\small\makebox[0.5\linewidth][l]{\faCalendar \hspace{0.5em}#5}%
+  \ifstrequal{#6}{}{}{\makebox[0.5\linewidth][l]{\faMapMarker\hspace{0.5em}#6}}\par}
   \medskip
 }
 
 
-\newcommand{\cvachievement}[4]{%
+\newcommand{\cvachievement}[3]{%
   {\textbf{\color{accent}#1}\par}
   \smallskip
-  \textbf{\small\color{body}#2}\par
-  \smallskip
-  {\small\makebox[0.5\linewidth][l]{\faCalendar \hspace{0.5em}#3}%
-  \ifstrequal{#4}{}{}{\makebox[0.5\linewidth][l]{\faMapMarker\hspace{0.5em}#4}}\par}
+  {\small\makebox[0.5\linewidth][l]{\faCalendar \hspace{0.5em}#2}%
+  \ifstrequal{#3}{}{}{\makebox[0.5\linewidth][l]{\faMapMarker\hspace{0.5em}#3}}\par}
   \medskip
 }
 
